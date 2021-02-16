@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     width: 100%;
     display: block;
@@ -16,7 +20,7 @@ img {
 }
 
 .container {
-    width: 1024px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -35,17 +39,53 @@ header {
 
 .logo {
     width: 10%;
-    background-color: pink;
 }
 
-.menu {
-    width: 50%;
+nav {
+    padding: 10px 0;
+}
+
+.menu-central {
+    width: 55%;
+    padding-left: 20px;
 }
 
 .menu-right {
-    width: 40%;
+    width: 35%;
+    text-align: right;
 }
 
+.menu {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-top: 20px;
+}
 
-font-family: 'Roboto', sans-serif;
+.menu li {
+    display: inline-block;
+}
 
+.menu li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.menu .login {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+}
+
+.teaser {
+    margin-top: 15%;
+    color: white;
+}
