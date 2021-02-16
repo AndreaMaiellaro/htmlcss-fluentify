@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+}
+
+header {
+    height: 550px;
+    background-color: darkblue;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 100% 105%;
+}
+
+.logo {
+    width: 10%;
+    background-color: pink;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu-right {
+    width: 40%;
+}
+
+
+font-family: 'Roboto', sans-serif;
+
